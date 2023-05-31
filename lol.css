@@ -1,0 +1,223 @@
+.logo {
+    width: 170px;
+    height: 58px;
+    float: left;
+    background-size: 165px 71px;
+    border-radius: 50%;
+    margin-bottom: 50%;
+
+}
+
+
+.khung {
+    border-style: solid;
+    display: block;
+    width: 80%;
+    height: 300px;
+    background-size: 100%;
+    background-color: rgb(255, 255, 255);
+    background-image: url("https://cdn.vn.garenanow.com/web/kg/home/images/img-share.jpg");
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    border-radius: 10px
+}
+
+body {
+    background-color: rgb(187, 247, 247);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url(https://cdn.tgdd.vn/GameApp/4/221941/Screentshots/lien-minh-huyen-thoai-game-moba-pho-bien-nhat-the-gioi-21-05-2020-2.jpg);
+}
+
+.thu2 {
+    border-style: solid;
+    display: block;
+    width: 40%;
+    height: 500px;
+    background-size: 200%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    border-radius: 50px
+}
+
+.cangiua {
+    width: 1000px;
+    margin: auto;
+}
+
+.nen {
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 170px;
+    height: 58px;
+    float: left;
+    background: url(https://img5.thuthuatphanmem.vn/uploads/2022/01/13/logo-board-game_081052035.jpg) no-repeat;
+    background-size: 165px 71px;
+    background-color: #aa5f5c;
+    background-position: center
+}
+
+.maukhung {
+    height: auto;
+    float: left;
+    background: #c04953;
+    width: 100%;
+}
+h1 {
+    font:700 30px/30px arial;
+    text-align: center;
+    color: aqua;
+}
+.cach {
+    float: left;
+    padding: 5px;
+    line-height: 50px;
+}
+
+h2{
+    padding-left: 2%;
+   }
+
+.cach1 {
+    float: left;
+    padding: 0 18px;
+    line-height: 30px;
+    list-style: none;
+
+}
+
+.mau {
+    background: #b66060;
+    float: left;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.khungtrai {
+    border-radius: 10px;
+    margin-left: 20px;
+    box-sizing: border-box;
+    background-color: rgb(226, 218, 218);
+    float: left;
+    margin: 20px;
+
+}
+
+.bocham {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+.nháy {
+    padding: 15px;
+    color: rgb(189, 193, 75);
+
+}
+
+.nháy:hover {
+    background-color: #4e63b9;
+
+}
+
+.noidung {
+    width: 1100px;
+    text-align: left;
+    border: solid;
+    border-radius: 10px;
+    margin: auto;
+    background-color: aliceblue;
+}
+
+img {
+    margin-left: 30px;
+}
+
+strong,
+p {
+    font-size: 20px;
+    margin-left: 7%;
+}
+
+h3 {
+    font-size: 20px;
+    margin-left: 5%;
+}
+
+.cangiua {
+    display: block;
+    text-align: center;
+    justify-content: center;
+}
+.flex {
+    display: flex;
+
+}
+
+.flex div {
+    padding: 10px;   
+    margin: 10px;
+}
+
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.inline-flex div {
+    padding: 10px;
+    margin: 10px;
+}
+@media (max-width: 670px) {  
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        color: #000;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .inline-flex{
+        flex-direction: column;
+    }
+    .noidung{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+    img{
+        width: 80%;
+    }
+    .maukhung{    
+    height: auto;
+    float: left;
+    background: #c04953;
+    width: 35%;
+}
+body{
+    background-color: aliceblue;
+    background-image: none;
+}
+}
+.nha{
+    width:30% ;
+}

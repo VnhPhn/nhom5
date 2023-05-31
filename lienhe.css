@@ -1,0 +1,66 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #F2F2F2;
+	color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+}
+
+h1 {
+	margin: 0;
+	font-size: 36px;
+}
+
+form {
+	margin: 20px;
+	background-color: #FFF;
+	padding: 30px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+input, textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #F2F2F2;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+
+.gui {
+	background-color: #333;
+	color: #FFF;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	display: block;
+	width: 100px;
+	margin: auto;
+
+}
+.cangiua{
+	width: 100px;
+	margin: auto;
+
+}

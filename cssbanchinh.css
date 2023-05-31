@@ -1,0 +1,174 @@
+.cangiua {
+    width: 1000px;
+    margin: auto;
+}
+
+.nen {
+    background-image: url(https://cdnimg.vietnamplus.vn/t620/uploaded/ngtnnn/2023_01_26/2601game.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.logo {
+    width: 170px;
+    height: 58px;
+    float: left;
+    background: url(https://img5.thuthuatphanmem.vn/uploads/2022/01/13/logo-board-game_081052035.jpg) no-repeat;
+    background-size: 165px 71px;
+    background-color: #aa5f5c;
+    background-position: center;
+    border-radius: 50%;
+    margin-bottom: 50%;
+}
+
+.maukhung {
+    height: auto;
+    float: left;
+    background: #c04953;
+    width: 100%;
+}
+
+.cach {
+    float: left;
+    padding: 0 25px;
+    line-height: 50px;
+}
+
+.nha{
+    width:100% ;
+}
+
+.cach1 {
+    float: left;
+    padding: 0 25px;
+    line-height: 37px;
+}
+
+.mau {
+    background: #b66060;
+
+    float: left;
+    width: 100%;
+    line-height: 52px;
+    padding: 0 12px;
+}
+
+.khungtrai {
+    border-radius: 10px;
+    margin-left: auto;
+    box-sizing: border-box;
+    background-color: rgb(226, 218, 218);
+    float: left;
+    margin: 5%;
+    list-style: none;
+
+}
+
+h1 {
+    font: 700 30px/30px arial;
+    text-align: center;
+
+}
+
+.bocham {
+    text-decoration: none;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h3,
+p {
+    color: #0b0a0a;
+}
+
+.nháy {
+    padding: auto;
+    color: rgb(189, 193, 75);
+
+}
+
+.nháy:hover {
+    background-color: #4e63b9;
+
+}
+
+.flex {
+    display: flex;
+
+}
+
+.flex div {
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.inline-flex {
+    display: inline-flex;
+}
+
+.inline-flex div {
+    padding: 10px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+}
+@media (max-width: 670px) {
+    body {
+        background-color: aliceblue;
+        background-image: none;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        color: #000;
+    }
+    .nha{
+        width: 10%;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .inline-flex{
+        flex-direction: column;
+    }
+    .noidung{
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+    img{
+        width: 80%;
+    }
+    .maukhung{    
+    height: auto;
+    float: left;
+    background: #c04953;
+    width: 35%;
+}
+.cach {
+    float: left;
+    padding:5%;
+    line-height: 10%;
+}
+.cangiua {
+    width: 1000px;
+    margin-left: auto;
+}
+
+}
